@@ -1,15 +1,15 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #container {
-  border: 1px solid black;
  margin: 64px auto 0;
  width: 626px;
  height: 486px;
  align-items: center;
  justify-content: center;
- 
 }
 
 #container img {
@@ -21,13 +21,49 @@ body {
 h1 {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
+  height: 40px;
+  width: 494px;
+  margin: auto;
+  margin-top: 20px;
 }
 span {
   font-weight: bold;
   color: #EE24FF;
 }
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #828282;
+  width: 580px;
+  height: 107px;
+  margin: 20px auto 0;
+}
+#baixo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #828282;
+  width: 626px;
+  height: 21px;
+}
+strong {
+  font-weight: bold;
+  color: #3F3D56;
+}
+#Flutuar {
+  font-weight: bold;
+  color: #828282;
+}
 ul {
-list-style: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 72px auto 74px;
+}
+ul li a {
+  color: #3F3D56;
+  text-decoration: none;
+  font-weight: bold;
 }
 #img {
   width: 100%;
